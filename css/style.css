@@ -1,0 +1,434 @@
+@font-face {
+  font-family: SFProDisplay;
+  src: local("fonts/FontsFree-Net-SFProDisplay-Regular.ttf"); }
+section {
+  padding: 80px 0; }
+
+img {
+  max-width: 100%; }
+
+* {
+  font-size: 16px;
+  font-family: 'SFProDisplay', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+.uppercase__font {
+  text-transform: uppercase; }
+
+.capitalize__font {
+  text-transform: capitalize; }
+
+.justify {
+  text-align: justify; }
+
+.underline {
+  text-decoration: underline; }
+
+h1 {
+  font-size: 70px; }
+
+h2 {
+  font-size: 50px; }
+  @media screen and (max-width: 768px) {
+    h2 {
+      font-size: 35px; } }
+
+h3 {
+  font-size: 40px; }
+  @media screen and (max-width: 768px) {
+    h3 {
+      font-size: 25px; } }
+
+h4 {
+  font-size: 30px; }
+  @media screen and (max-width: 768px) {
+    h4 {
+      font-size: 20px; } }
+
+h5 {
+  font-size: 24px; }
+  @media screen and (max-width: 768px) {
+    h5 {
+      font-size: 18px; } }
+
+h6 {
+  font-size: 18px; }
+  @media screen and (max-width: 768px) {
+    h6 {
+      font-size: 14px; } }
+
+h1, h2, h3, h4, h5 {
+  font-weight: 900; }
+
+.fw-1 {
+  font-weight: 100 !important; }
+
+.fw-2 {
+  font-weight: 200 !important; }
+
+.fw-3 {
+  font-weight: 300 !important; }
+
+.fw-4 {
+  font-weight: 400 !important; }
+
+.fw-5 {
+  font-weight: 500 !important; }
+
+.fw-6 {
+  font-weight: 600 !important; }
+
+.fw-7 {
+  font-weight: 700 !important; }
+
+.fw-8 {
+  font-weight: 800 !important; }
+
+.fw-9 {
+  font-weight: 900 !important; }
+
+.lh-1 {
+  line-height: 1rem !important; }
+
+.lh-2 {
+  line-height: 2rem !important; }
+
+.lh-3 {
+  line-height: 3rem !important; }
+
+.lh-4 {
+  line-height: 4rem !important; }
+
+.lh-5 {
+  line-height: 5rem !important; }
+
+.lh-6 {
+  line-height: 6rem !important; }
+
+.lh-7 {
+  line-height: 7rem !important; }
+
+.lh-8 {
+  line-height: 8rem !important; }
+
+.lh-9 {
+  line-height: 9rem !important; }
+
+.ls-1 {
+  letter-spacing: 1px; }
+
+.ls-2 {
+  letter-spacing: 2px; }
+
+.ls-3 {
+  letter-spacing: 3px; }
+
+.ls-4 {
+  letter-spacing: 4px; }
+
+.ls-5 {
+  letter-spacing: 5px; }
+
+.ls-6 {
+  letter-spacing: 6px; }
+
+.ls-7 {
+  letter-spacing: 7px; }
+
+.ls-8 {
+  letter-spacing: 8px; }
+
+.ls-9 {
+  letter-spacing: 9px; }
+
+.ls-10 {
+  letter-spacing: 10px; }
+
+.opacity-1 {
+  opacity: 0.1;
+  transition: .5s; }
+  .opacity-1.hover {
+    opacity: 1; }
+
+.opacity-2 {
+  opacity: 0.2;
+  transition: .5s; }
+  .opacity-2.hover {
+    opacity: 1; }
+
+.opacity-3 {
+  opacity: 0.3;
+  transition: .5s; }
+  .opacity-3.hover {
+    opacity: 1; }
+
+.opacity-4 {
+  opacity: 0.4;
+  transition: .5s; }
+  .opacity-4.hover {
+    opacity: 1; }
+
+.opacity-5 {
+  opacity: 0.5;
+  transition: .5s; }
+  .opacity-5.hover {
+    opacity: 1; }
+
+.opacity-6 {
+  opacity: 0.6;
+  transition: .5s; }
+  .opacity-6.hover {
+    opacity: 1; }
+
+.opacity-7 {
+  opacity: 0.7;
+  transition: .5s; }
+  .opacity-7.hover {
+    opacity: 1; }
+
+.opacity-8 {
+  opacity: 0.8;
+  transition: .5s; }
+  .opacity-8.hover {
+    opacity: 1; }
+
+.opacity-9 {
+  opacity: 0.9;
+  transition: .5s; }
+  .opacity-9.hover {
+    opacity: 1; }
+
+.opacity-10 {
+  opacity: 1;
+  transition: .5s; }
+  .opacity-10.hover {
+    opacity: 1; }
+
+.normal {
+  font-weight: normal !important; }
+
+.no__outline {
+  outline-style: none !important; }
+
+.pointer {
+  cursor: pointer; }
+
+.ul__list--inline {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .ul__list--inline > li {
+    display: inline-block; }
+
+.ul__list {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.sosmed__list li a {
+  width: 40px;
+  height: 40px;
+  transition: .5s;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  font-size: 20px;
+  color: black; }
+  .sosmed__list li a:hover {
+    color: white;
+    background-color: black;
+    box-shadow: 0px 10px 40px #3e3c3c7a; }
+  .sosmed__list li a i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+
+html, body {
+  background-color: #f0f2f5; }
+
+.color__gray {
+  color: #606770; }
+
+.color__blue {
+  color: #1877f2; }
+
+.bg__blue {
+  background-color: #1877f2; }
+
+.bg__white {
+  background-color: white; }
+
+.border__radius-5 {
+  border-radius: 5px; }
+
+.lh__22 {
+  line-height: 22px; }
+
+.px-5-add {
+  padding-left: 5rem !important;
+  padding-right: 5rem !important; }
+
+.btn__font {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  line-height: 35px; }
+
+.bg__green {
+  background-color: #42b72a; }
+
+.btn__create {
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  padding: 0 16px;
+  font-weight: bold;
+  color: white; }
+  .btn__create:hover {
+    background-color: #36a420;
+    color: white; }
+
+.close__up {
+  position: absolute;
+  border-radius: 16px;
+  height: 16px;
+  transition: all 100ms cubic-bezier(0.08, 0.52, 0.52, 1);
+  width: 16px;
+  background-color: white;
+  z-index: 1;
+  opacity: 0; }
+
+.component__logo {
+  height: 70px;
+  margin: -20px; }
+.component__h1-title {
+  font-size: 28px;
+  font-weight: normal; }
+.component__ft-14 {
+  font-size: 14px; }
+.component__ft-15 {
+  font-size: 15px; }
+.component__ft-18 {
+  font-size: 18px; }
+.component__min-30 {
+  margin-left: -30px; }
+.component__plus {
+  background-color: #f5f6f7;
+  height: 160px; }
+.component__card-profile {
+  width: 160px;
+  box-shadow: 0 0 0 1px #dddfe2;
+  transition: .5s; }
+  .component__card-profile:hover {
+    box-shadow: 0 1px 8px 5px #dddfe2; }
+  .component__card-profile.card__active:hover .close {
+    opacity: 0; }
+  .component__card-profile.card__active:hover .close__up {
+    opacity: 1;
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.3);
+    transform-origin: bottom right;
+    transform: scale(1.5); }
+    .component__card-profile.card__active:hover .close__up i {
+      position: absolute;
+      font-size: 12px;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+      color: #bfc0c1; }
+  .component__card-profile img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0; }
+  .component__card-profile .box-notif {
+    background-color: #fa3e3e;
+    border-radius: 24px;
+    box-shadow: -1px 1px 2px 0 rgba(0, 0, 0, 0.3);
+    color: #fff;
+    cursor: default;
+    font-size: 13px;
+    height: 24px;
+    line-height: 24px;
+    position: absolute;
+    right: -4px;
+    text-align: center;
+    top: -4px;
+    width: 24px; }
+  .component__card-profile .close {
+    width: 16px;
+    height: 16px;
+    left: 4px;
+    position: absolute;
+    text-align: center;
+    top: 4px;
+    position: absolute;
+    transform-origin: bottom right;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    text-align: center;
+    line-height: 16px; }
+.component__plus--icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #1877f2;
+  text-align: center; }
+  .component__plus--icon i {
+    color: white;
+    font-size: 25px;
+    line-height: 46px; }
+.component__tag-a a {
+  color: #1877f2;
+  font-size: 14px;
+  font-weight: 500; }
+.component__form-card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: 40px 0 0;
+  padding: 20px 0 28px; }
+  .component__form-card form button:hover {
+    color: white; }
+  .component__form-card form .form-group input {
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    height: 52px;
+    line-height: 16px;
+    padding: 0 8px;
+    vertical-align: middle;
+    padding: 14px 16px; }
+    .component__form-card form .form-group input::-webkit-input-placeholder {
+      font-size: 17px;
+      color: #9094a5; }
+    .component__form-card form .form-group input:-ms-input-placeholder {
+      font-size: 17px;
+      color: #9094a5; }
+    .component__form-card form .form-group input::placeholder {
+      font-size: 17px;
+      color: #9094a5; }
+    .component__form-card form .form-group input:focus {
+      outline: none !important;
+      box-shadow: none; }
+      .component__form-card form .form-group input:focus::-webkit-input-placeholder {
+        font-size: 17px;
+        color: #dddfe2; }
+      .component__form-card form .form-group input:focus:-ms-input-placeholder {
+        font-size: 17px;
+        color: #dddfe2; }
+      .component__form-card form .form-group input:focus::placeholder {
+        font-size: 17px;
+        color: #dddfe2; }
+
+/*# sourceMappingURL=style.css.map */
